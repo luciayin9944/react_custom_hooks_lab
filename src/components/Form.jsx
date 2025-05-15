@@ -9,7 +9,7 @@ function Form() {
             <label htmlFor="name">Name:</label>
             <input type="text" 
                   data-testid={"name"}
-                  vaule={name}
+                  value={name}
                   onChange={(e)=> setName(e.target.value)} 
               />
             <label htmlFor="service">Service Number:</label>
